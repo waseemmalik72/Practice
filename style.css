@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4;
+
+}
+
+/* Header starts here  */
+
+header {
+    background-color: #f7f8f8;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.h {
+    margin-right: 20px;
+    font-weight: 900;
+    color: blue;
+    font-size: 24px;
+}
+
+.info {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.edit {
+    font-size: 1.5rem;
+    padding: 8px;
+    background-color: #cbc2b1;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.select-country {
+    height: 48px;
+    width: 26rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 0;
+    margin-left: 30px;
+}
+
+.countries {
+    display: flex;
+    align-items: center;
+}
+
+.size {
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.select-field {
+    width: 100%;
+    margin-left: 12px;
+    margin-right: 5px;
+}
+
+select {
+    font-size: 1.3rem;
+    border: none;
+    width: 100%;
+    background: none;
+}
+
+.input {
+    margin-left: 15px;
+    height: 48px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 4px;
+    position: relative;
+    top: 0;
+}
+
+input {
+    padding: 8px 10px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.button {
+    display: flex;
+    margin-left: 20px;
+}
+
+.abs {
+    position: absolute;
+    right: 0;
+    height: 44px;
+    width: 48px;
+    font-size: 1.8rem;
+    background-color: #002f34;
+    color: white;
+    border-radius: 0 2px 2px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+
+.btn {
+    border: none;
+    font-size: 1.3rem;
+    background: none;
+
+}
+
+.btn a {
+    color: black;
+}
+
+.sell {
+    position: relative;
+    top: 0;
+    margin-left: 20px;
+}
+
+.plus {
+    position: absolute;
+    top: 13px;
+    display: flex;
+    left: 27px;
+}
+
+.upper {
+    text-transform: uppercase;
+    padding-left: 3px;
+    font-weight: 700;
+}
+
+/* Main Chips Start Here  */
+
+.shadow {
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+
+}
+
+.body-rapper {
+    display: flex;
+    align-items: center;
+}
+
+.chips-txt {
+    display: flex;
+    margin-right: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.chips-txt img {
+    margin-left: 5px;
+}
+
+.chips {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* Main slider starts here  */
+
+.slider {
+    height: 234px;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+}
+
+/* main feature starts here  */
+
+.fresh {
+    padding-top: 40px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-container {
+    margin: 0 5px 5px 0;
+}
+
+.feature-item {
+    width: 330px;
+    background-color: black;
+}
+
+.item {
+    width: 75%;
+    height: 200px;
+    margin: auto;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
+
+.All-detail {
+    padding-left: 10px;
+    background-color: #f7f8f8;
+    border: 1px solid #bed3d3;
+}
+
+.detail {
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #281a1a;
+}
+
+.Rupees {
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.place-time {
+    padding-bottom: 10px;
+    color: #3c2f2f;
+}
+
+.load {
+    display: flex;
+    justify-content: center;
+}
+
+main .container-fluid {
+    background-color: rgba(0, 47, 52, .03);
+    margin: 15px 0;
+}
+
+.visit {
+    display: flex;
+}
+
+.app {
+    margin: 0 10px 0 20px;
+}
+
+.app .txt {
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin: 29px 0 14px 0;
+}
+
+.app .try {
+    font-size: 1.3rem;
+    font-weight: 700;
+    max-width: 25rem;
+    color: #4c3e3e;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+}
+
+.bar .line-bar {
+    width: 2px;
+    background-color: rgba(0, 47, 52, .2);
+    height: 65%;
+}
+
+.infoo {
+    margin-left: 30px;
+}
+
+.infoo .txt {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 3rem 0 1rem;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+}
+
+.img img {
+    width: 120px;
+    margin: 0 5px;
+}
+
+/* Footer Starts Here  */
+
+footer .container-fluid{
+    padding: 10px 0 40px 0;
+}
+
+.list {
+    list-style: none;
+    color: rgba(0, 47, 52, .64);
+    font-size: 14px;
+}
+
+.list-item .txt {
+    font-weight: 900;
+    display: block;
+    margin: 10px 0;
+   color: #1f301f;
+}
